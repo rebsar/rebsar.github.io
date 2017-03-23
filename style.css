@@ -1,0 +1,77 @@
+p {
+ background:darkpink;
+ color: #66ffb3;
+ padding: 1px;
+}
+body {
+  background:linear-gradient(white,grey);
+}
+html  {
+  height:100%;
+}
+#hungry1 {
+  color:red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#hungry2 {
+  color:darkorange;
+  font-size: 30px;
+  font-weight: bold;
+}
+#hungry3 {
+  color:green;
+  font-size: 30px;
+  font-weight: bold;
+}
+#hungry4 {
+  color:blue;
+  font-size: 30px;
+  font-weight: bold;
+}
+#hungry5 {
+  color:purple;
+  font-size: 30px;
+  font-weight: bold;
+}
+#smileyface {
+width:8%;
+height:8%;
+}
+#icecream {
+  width:30%;
+  height:30%;
+}
+#doughnuts {
+  width:25%;
+  height:30%;
+}
+#pancakes{
+  width:30%;
+  length:30%;
+}
+#fruits{
+  width:30%;
+  height:30%;
+}
+#vegetables{
+  width:25%;
+  height:30%;
+}
+#food{
+  width:40%;
+  height:40%;
+}
+h1:hover{background-color: black}
+button{
+  font-size: 30px;
+  color:white;
+  background-color:black;
+  margin:auto;
+}
+#hungry1:hover{background-color: red}
+#hungry2:hover{background-color:darkorange}
+#hungry3:hover{background-color: green}
+#hungry4:hover{background-color: blue}
+#hungry5:hover{background-color: purple}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title></title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.js"></script>
+        <script src="sketch.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+     <h1>BECCA</h1>
+<img id="smileyface" src="https://s-media-cache-ak0.pinimg.com/originals/a1/25/bd/a125bd16feccdb45207d1b41e4d69f8f.jpg">
+<p id="hungry1">i am not hungry</p>
+<p id="hungry2">i am not hungry</p>
+<p id="hungry3">i am not hungry</p>
+<p id="hungry4">i am not hungry</p>
+<p id="hungry5">i am not hungry</p>
+<a href="food.html"><button>Don't Press Me</button></a>
+
+
+    </body>
+</html>
+
+<script>
+$(document).ready(function(){
+    $("#hungry1").hover(function(){
+      $("#hungry1").text("just kidding, i'm always hungry");
+      $("#hungry1").css("color", "black");
+      }, function(){
+      $("#hungry1").text("I am not hungry");
+      $("#hungry1").css("color", "red");
+    });
+    $("#hungry2").hover(function(){
+      $("#hungry2").text("just kidding, i'm always hungry");
+      $("#hungry2").css("color", "black");
+      }, function(){
+      $("#hungry2").text("I am not hungry");
+      $("#hungry2").css("color", "orange");
+    });
+    $("#hungry3").hover(function(){
+      $("#hungry3").text("just kidding, i'm always hungry");
+      $("#hungry3").css("color", "black");
+      }, function(){
+      $("#hungry3").text("I am not hungry");
+      $("#hungry3").css("color", "green");
+    });
+    $("#hungry4").hover(function(){
+      $("#hungry4").text("just kidding, i'm always hungry");
+      $("#hungry4").css("color", "black");
+      }, function(){
+      $("#hungry4").text("I am not hungry");
+      $("#hungry4").css("color", "blue");
+    });
+    $("#hungry5").hover(function(){
+      $("#hungry5").text("just kidding, i'm always hungry");
+      $("#hungry5").css("color", "black");
+      }, function(){
+      $("#hungry5").text("I am not hungry");
+      $("#hungry5").css("color", "purple");
+    });
+});
+</script>
